@@ -1,0 +1,36 @@
+## Config file
+lr:              1e-4 # Initial learning rate 1e-4
+epochs:          200 # Number of epochs to train the model
+number_classes:  1 # Number of classes in the target dataset
+batch_size_tr:   24 # Batch size for train
+batch_size_va:   1 # Batch size for validation
+path_to_data:    '/mnt/data/A4C_US/' #path to dataset "/mnt/data/PSAX_US dataset-US-A4C"
+patience:        10 # number of epochs without improvement to do before finishing training early.
+eval_interval: 1    #help='eval interval, default=5
+pretrained:      0 # load the previously trained weight or no value should either 1 or 0
+saved_model: '/root/HFERWKV/weights/HFERWKV_a4c_test.model' #output dir psax3
+
+# model
+image_size        : 224
+patch_size        : 4
+num_classes       : 1   #help='output channel of network')
+in_chans          : 3
+embed_dim         : 96
+depths            : [2, 2, 2, 2]
+num_heads         : [3, 6, 12, 24]
+window_size       : 7
+mlp_ratio         : 4
+qkv_bias          : True
+qk_scale          : null
+drop_rate         : 0.0
+drop_path_rate    : 0.1
+attn_drop_rate    : 0
+ape               : False
+patch_norm        : True
+use_checkpoint    : False
+operationaddatten : '+'
+spatial_attention : '0'
+final_upsample    : "expand_first"
+mode: "swin"  #choices=['swin'], default='swin')
+skip_num: '3' #choices=['0', '1', '2','3'], default='3'
+attention: 1  #choices=['0',"1"], default="1"
