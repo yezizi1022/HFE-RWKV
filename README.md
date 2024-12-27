@@ -8,8 +8,6 @@ Official implementation code for [_HFE-RWKV: High-Frequency Enhanced RWKV  Model
 ---
 ## Prepare data
 
-### 1. DataSplit.py
-
 - The `DataSplit.py` script is used to divide the EchoNet-Pediatric dataset into three subsets.
 - The `Prepare_US.py` script is designed to preprocess the dataset for input into the model. 
 
