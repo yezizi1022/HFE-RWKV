@@ -44,10 +44,15 @@ python test.py
 ---
 ## Citation
 ```
-@article{,
-  title={HFE-RWKV: High-Frequency Enhanced RWKV  Model for Efficient Left Ventricle Segmentation in  Pediatric Echocardiograms},
-  author={Zi Ye, Tianxiang Chen, Ziyang Wang, Hanwei Zhang, and Lijun Zhang},
-  journal={},
-  year={}
-}
+@INPROCEEDINGS{10888300,
+  author={Ye, Zi and Chen, Tianxiang and Wang, Ziyang and Zhang, Hanwei and Zhang, Lijun},
+  booktitle={ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={HFE-RWKV: High-Frequency Enhanced RWKV Model for Efficient Left Ventricle Segmentation in Pediatric Echocardiograms}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-5},
+  keywords={Accuracy;Codes;Shape;Computational modeling;Frequency-domain analysis;Medical services;Speech enhancement;Signal processing;Feature extraction;Computational complexity;Left ventricle segmentation;RWKV;frequency enhancement},
+  doi={10.1109/ICASSP49660.2025.10888300}}
+
 ```
