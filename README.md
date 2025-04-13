@@ -1,5 +1,5 @@
 # HFE-RWKV
-Official implementation code for [_HFE-RWKV: High-Frequency Enhanced RWKV  Model for Efficient Left Ventricle Segmentation in  Pediatric Echocardiograms_](https://) paper
+Official implementation code for [_HFE-RWKV: High-Frequency Enhanced RWKV  Model for Efficient Left Ventricle Segmentation in  Pediatric Echocardiograms_](https://ieeexplore.ieee.org/document/10888300) paper (Accepted by 2025 ICASSP oral)
 
 ---
 
